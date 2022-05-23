@@ -157,7 +157,8 @@
     accion pero no se restablecen los cambios en el directorio. No se recupera el archivo
   </p>
   <p>
-    git restore permite restaurar un archivo en el directorio
+    git restore permite restaurar un archivo en el directorio. También permite que si esta modificado, quitar esa
+    modificacion
   </p>
   <h2>Cambiar el nombre</h2>
   <p>
@@ -222,7 +223,7 @@
       sino main que significa rama central, en todos los proyectos que creemos será así casi por defecto.
     </p>
     <p>
-      checkout -b nombre-rama checkout -b ramab nos permite crear una rama.
+      git checkout -b nombre-rama checkout -b ramab nos permite crear una rama.
       <br>Features/nombrefuncion <br>
       codigo del ticket
       <br>
@@ -244,6 +245,8 @@
       git merge nombrerama git merge ramab trae la rama junto con los cambios incluidos
     </p>
   </article>
+
+
   <h2>GITHUB</h2>
   <p>
     git remote add origin https://github.com/SantiagoPhoenix/miweb.git
